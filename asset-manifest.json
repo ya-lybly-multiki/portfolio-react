@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.9f407d9d.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.cb3a41b9.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.cb3a41b9.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.6e39fc0b.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.6e39fc0b.js.map",
+    "static/js/2.e2fed24c.chunk.js": "/portfolio-react/static/js/2.e2fed24c.chunk.js",
+    "static/js/2.e2fed24c.chunk.js.map": "/portfolio-react/static/js/2.e2fed24c.chunk.js.map",
+    "static/js/3.50578cb1.chunk.js": "/portfolio-react/static/js/3.50578cb1.chunk.js",
+    "static/js/3.50578cb1.chunk.js.map": "/portfolio-react/static/js/3.50578cb1.chunk.js.map",
+    "index.html": "/portfolio-react/index.html",
+    "static/css/main.9f407d9d.chunk.css.map": "/portfolio-react/static/css/main.9f407d9d.chunk.css.map",
+    "static/js/2.e2fed24c.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.e2fed24c.chunk.js.LICENSE.txt",
+    "static/media/38967820-social-network-social-media-business-people-technology-concept.dc847bfe.webp": "/portfolio-react/static/media/38967820-social-network-social-media-business-people-technology-concept.dc847bfe.webp",
+    "static/media/MainContent.module.scss": "/portfolio-react/static/media/Bezymyanny2.20c2fdcf.jpg",
+    "static/media/fast-delivery.9a35816e.png": "/portfolio-react/static/media/fast-delivery.9a35816e.png",
+    "static/media/git.1dcf027e.png": "/portfolio-react/static/media/git.1dcf027e.png",
+    "static/media/html5.10080bf9.svg": "/portfolio-react/static/media/html5.10080bf9.svg",
+    "static/media/jest.05a3e041.png": "/portfolio-react/static/media/jest.05a3e041.png",
+    "static/media/lightbulb.75299785.png": "/portfolio-react/static/media/lightbulb.75299785.png",
+    "static/media/logo-og.ef20e673.png": "/portfolio-react/static/media/logo-og.ef20e673.png",
+    "static/media/materialUI.c0958f97.svg": "/portfolio-react/static/media/materialUI.c0958f97.svg",
+    "static/media/react.37723f10.png": "/portfolio-react/static/media/react.37723f10.png",
+    "static/media/redux.7704ea70.svg": "/portfolio-react/static/media/redux.7704ea70.svg",
+    "static/media/rocket.2d00d62f.png": "/portfolio-react/static/media/rocket.2d00d62f.png",
+    "static/media/softSkills.9352779b.png": "/portfolio-react/static/media/softSkills.9352779b.png",
+    "static/media/typescript.b6a67c48.svg": "/portfolio-react/static/media/typescript.b6a67c48.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e39fc0b.js",
+    "static/js/2.e2fed24c.chunk.js",
+    "static/css/main.9f407d9d.chunk.css",
+    "static/js/main.cb3a41b9.chunk.js"
+  ]
+}

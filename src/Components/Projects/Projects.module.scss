@@ -1,0 +1,14 @@
+.projectWrapper {
+    text-align: center;
+    background-color: grey;
+    min-height: 100vh;
+}
+
+.projectsContainer {
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 890px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}

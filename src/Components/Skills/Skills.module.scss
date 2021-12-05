@@ -1,0 +1,44 @@
+.skills {
+    background-color: green;
+    text-align: center;
+    padding:  20px;
+    min-height: 100vh;
+}
+
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    p{
+        padding-right: 1.1rem;
+        font-size: 20px;
+        margin: 0;
+    }
+    @media (max-width: 1446px) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    @media (max-width: 1200px) {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    @media (max-width: 890px) {
+        grid-template-columns: repeat(2,1fr);
+    }
+    @media (max-width: 590px) {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.BenefitWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    @media (max-width: 614px) {
+        flex-direction: column;
+    }
+}
+
+

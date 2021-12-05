@@ -1,0 +1,41 @@
+.main {
+    background-color: #212529;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-evenly;
+    @media (max-width: 825px) {
+        flex-direction: column;
+    }
+}
+
+.mainText{
+    text-align: center;
+
+    color: white;
+    svg {
+        color: white;
+    }
+}
+
+.particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.mainLinks {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainPhoto {
+    width: 300px;
+    height: 500px;
+    background-image: url('../../assets/img/ProfilePhoto/Bezymyanny2.jpg');
+    background-size: cover;
+    background-position: 45%;
+}

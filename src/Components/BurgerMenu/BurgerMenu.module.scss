@@ -1,0 +1,97 @@
+@import "./src/styles/mixins";
+
+.burgerMenuContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+
+  .burgerBtn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    color: #e8e8e8;
+    background-color: rgba(33, 37, 41, 0.5);
+    font-size: 27px;
+    text-align: center;
+    z-index: 101;
+
+    &:before {
+      @include burgerElement(12px);
+      transition: 0.5s;
+    }
+
+    span {
+      @include burgerElement(24px);
+    }
+
+    &:after {
+      @include burgerElement(36px);
+      transition: 0.5s;
+    }
+  }
+
+  .openBtn {
+    background-color: transparent;
+
+    &:before {
+      transform: rotate(45deg);
+      top: 18px;
+    }
+
+    span {
+      display: none;
+    }
+
+    &:after {
+      transform: rotate(-45deg);
+      top: 18px;
+    }
+  }
+
+  .navbar {
+    height: 0;
+    padding: 15px 0;
+    background-color: rgba(33, 37, 41, 0.9);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    transform: translate(0, -150px);
+    transition: 0.7s;
+
+    a {
+
+      cursor: pointer;
+      font-size: 20px;
+      letter-spacing: 1px;
+      color: white;
+      text-decoration: none;
+      transition: .1s;
+      &:hover {
+        color: #f5df4e;
+        border-bottom: 3px solid #f5df4e;
+      }
+    }
+    .active {
+      color: #f5df4e;
+      border-bottom: 3px solid #f5df4e;
+    }
+  }
+
+  .open {
+    transform: translate(0, 0);
+    height: 150px;
+  }
+
+  @media screen and (min-width: 599px) {
+    display: none;
+  }
+  @media screen and (orientation: landscape) and (max-width: 825px) {
+    display: flex;
+  }
+}

@@ -55,13 +55,13 @@ export function MainContent() {
                 <h3>I`m Fronted developer</h3>
                 <div className={s.mainLinks}>
                     <a target={"_blank"} href={"https://github.com/ya-lybly-multiki"}>
-                    <GitHubIcon fontSize={"large"} />
+                    <GitHubIcon target={"_blank"} fontSize={"large"} />
                     </a>
                     <a target={"_blank"} href={"https://t.me/Artem_Trifion"}>
-                        <TelegramIcon fontSize={"large"} />
+                        <TelegramIcon target={"_blank"} fontSize={"large"} />
                     </a>
                     <a target={"_blank"} href={"https://www.linkedin.com/in/%D0%B0%D1%80%D1%82%D1%91%D0%BC-%D1%82%D1%80%D0%B8%D1%84%D0%BE%D0%BD%D0%BE%D0%B2-9b6734225/"}>
-                        <LinkedInIcon fontSize={"large"} />
+                        <LinkedInIcon target={"_blank"} fontSize={"large"} />
                     </a>
                 </div>
             </div>

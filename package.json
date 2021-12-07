@@ -1,6 +1,6 @@
 {
   "name": "portfolio-react",
-  "homepage":"https://ya-lybly-multiki.io/portfolio-react",
+  "homepage": "https://ya-lybly-multiki.io/portfolio-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +20,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
+    "react-tilt": "^0.1.4",
     "styled-components": "^5.3.0",
     "tsparticles": "^1.33.3",
     "web-vitals": "^1.0.1"

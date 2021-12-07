@@ -35,10 +35,21 @@
     justify-content: space-evenly;
 }
 
+.mainPhotoWrapper {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    will-change: transform;
+    transition: all 1600ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;
+    transform: perspective(1000px) rotateX(
+                    0deg) rotateY(
+                    0deg) scale3d(1, 1, 1);
+}
+
+
 .mainPhoto {
     width: 300px;
     height: 500px;
     background-image: url('../../assets/img/ProfilePhoto/Bezymyanny2.jpg');
     background-size: cover;
     background-position: 45%;
+    border-radius: 25px;
 }

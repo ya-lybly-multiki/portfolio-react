@@ -4,7 +4,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import Particles from "react-particles-js";
-import ProfilePhoto from "../../assets/img/ProfilePhoto/Bezymyanny2.jpg"
+
+import { Fade } from "react-awesome-reveal"
+import Tilt from "react-tilt/dist/tilt";
 
 const particlesParams = {
     particles: {
@@ -65,7 +67,11 @@ export function MainContent() {
                     </a>
                 </div>
             </div>
-            <img  className={s.mainPhoto}/>
+            <Fade direction={'right'} triggerOnce><Tilt transitionSpeed={1600}>
+                <div className={s.mainPhotoWrapper}>
+                    <img className={s.mainPhoto}/>
+                </div>
+            </Tilt></Fade>
         </div>
     )
 }

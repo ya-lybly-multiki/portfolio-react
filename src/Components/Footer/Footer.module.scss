@@ -1,6 +1,10 @@
 .footerWrapper {
   display: flex;
   justify-content: space-evenly;
+  p {
+    font-size: 20px;
+    color: white;
+  }
 }
 
 .footerLinks {

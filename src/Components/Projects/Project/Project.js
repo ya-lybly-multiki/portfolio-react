@@ -8,10 +8,12 @@ export function Project(props) {
             <div className={s.ProjectImg} style={props.icon}>
                 <a className={s.ProjectLink} href={props.linksGit} target={"_blank"}>View code</a>
             </div>
-            <h3>{props.title}</h3>
-            <ul>
-                {props.description.Techs.map((m, i) => <li key={i}>{m}</li>)}
-            </ul>
+            <div className={s.DescriptionWrapper}>
+                <h3>{props.title}</h3>
+                <ul>
+                    {props.description.Techs.map((m, i) => <li key={i}>{m}</li>)}
+                </ul>
+            </div>
         </div>
     )
 }

@@ -8,4 +8,7 @@
     width: 100%;
     margin: 0 auto;
     z-index: 100;
+    @media (max-width: 824px) {
+        background-color: transparent;
+    }
 }

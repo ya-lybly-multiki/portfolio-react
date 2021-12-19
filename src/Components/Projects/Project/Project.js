@@ -11,7 +11,7 @@ export function Project(props) {
             <div className={s.DescriptionWrapper}>
                 <h3>{props.title}</h3>
                 <ul>
-                    {props.description.Techs.map((m, i) => <li key={i}>{m}</li>)}
+                    {props.description.Techs.map((m, i) => <li  key={i}>{m}</li>)}
                 </ul>
             </div>
         </div>

@@ -1,0 +1,13 @@
+.cvProfile {
+  display: flex;
+  min-height: 40vh;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  h3 {
+    font-size: 28px;
+  }
+  a {
+    text-decoration: none;
+  }
+}

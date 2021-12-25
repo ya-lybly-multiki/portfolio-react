@@ -5,10 +5,12 @@ import {Title} from "../utils/Title";
 
 
 export function Contacts() {
+
+
+
     return (
         <div id={"Contacts"} className={s.contactsWrapper}>
             <Title title={"Contact"} width={"230px"}/>
-            <p>Have a question or want to work together?</p>
             <form className={s.formWrapper}>
                 <div>
                     <input className={s.formInput} type={"text"} placeholder={"Name"}/>
@@ -17,7 +19,7 @@ export function Contacts() {
                     <input className={s.formInput} type={"email"} placeholder={"Enter Email"}/>
                 </div>
                 <textarea className={s.formInput} placeholder={"Your Message"} />
-                <Button  title={"SUBMIT"}/>
+                <Button classN={{border:"2px solid black"} } title={"SUBMIT"}/>
             </form>
         </div>
     )

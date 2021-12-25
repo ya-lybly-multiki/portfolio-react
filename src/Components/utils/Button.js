@@ -1,8 +1,10 @@
 import React from "react";
 import s from "./Button.module.scss"
 
-export function Button(props) {
+export function Button({title, classN,...props}) {
+
+
     return (
-        <button className={s.button}>{props.title}</button>
+        <button {...props} className={ s.button}>{title}</button>
     )
 }

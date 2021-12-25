@@ -6,6 +6,7 @@ import {Projects} from "./Components/Projects/Projects";
 import {Contacts} from "./Components/Contacts/Contacts";
 import Footer from "./Components/Footer/Footer";
 import {BurgerMenu} from "./Components/BurgerMenu/BurgerMenu";
+import CvProfile from "./Components/CV_profile/CvProfile";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <MainContent/>
             <About/>
             <Projects/>
+            <CvProfile/>
             <Contacts/>
             <Footer/>
         </div>
